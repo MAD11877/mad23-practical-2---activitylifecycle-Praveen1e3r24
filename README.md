@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/LFiEPPgW)
 # MAD Practical 2 - Activity
 You will be creating your first Android app! Your app will have a profile page on its main Activity.<br/>
 Follow the instructions below to complete your app.
@@ -6,15 +7,15 @@ Follow the instructions below to complete your app.
     * Empty Activity
     * Language: Java
     * Minimum API level: API 21: Android 5.0 (Lollipop)
-2. Create a User class based on the class diagram below.
+2. Create a sg.edu.np.mad.madpractical.User class based on the class diagram below.
 
-![User Class Diagram](/images/user_cd.png)
+![sg.edu.np.mad.madpractical.User Class Diagram](/images/user_cd.png)
 
 3. Create the layout of your main activity according to the figure shown below.
 
 ![Screen Mockup](/images/screen_mock.png)
 
-4. In your onCreate method, the name and description are loaded from the User object. The button on the left will show “Follow” if the variable followed is false, and vice versa.
+4. In your onCreate method, the name and description are loaded from the sg.edu.np.mad.madpractical.User object. The button on the left will show “Follow” if the variable followed is false, and vice versa.
 
 5.	When the left button is clicked, it will toggle the text between Follow and Unfollow. The variable followed is also updated to reflect this.
 

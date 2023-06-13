@@ -11,7 +11,7 @@
 9-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:5:5-33:19
+11-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:5:5-36:19
 12        android:allowBackup="true"
 12-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,61 +34,67 @@
 23        android:theme="@style/Theme.MADPractical" >
 23-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:13:9-50
 24        <activity
-24-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:15:9-23:20
-25            android:name="sg.edu.np.mad.madpractical.ListActivity"
+24-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:15:9-17:40
+25            android:name="sg.edu.np.mad.madpractical.MessageGroup"
 25-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:16:13-41
-26            android:exported="true" >
-26-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:17:13-36
-27            <intent-filter>
-27-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:19:17-69
-28-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:21:17-77
-30-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33        <activity
-33-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:24:9-32:20
-34            android:name="sg.edu.np.mad.madpractical.MainActivity"
-34-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:25:13-41
-35            android:exported="true" >
-35-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:26:13-36
-36            <intent-filter>
-36-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:18:13-22:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:19:17-69
-37-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:19:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:21:17-77
-39-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:21:27-74
-40            </intent-filter>
-41        </activity>
-42
-43        <provider
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-44            android:name="androidx.startup.InitializationProvider"
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-45            android:authorities="sg.edu.np.mad.madpractical.androidx-startup"
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-46            android:exported="false" >
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-47            <meta-data
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-49                android:value="androidx.startup" />
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+26            android:exported="false" />
+26-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:17:13-37
+27        <activity
+27-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:18:9-26:20
+28            android:name="sg.edu.np.mad.madpractical.ListActivity"
+28-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:19:13-41
+29            android:exported="true" >
+29-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:20:13-36
+30            <intent-filter>
+30-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:22:17-69
+31-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:24:17-77
+33-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:27:9-35:20
+37            android:name="sg.edu.np.mad.madpractical.MainActivity"
+37-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:28:13-41
+38            android:exported="true" >
+38-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:29:13-36
+39            <intent-filter>
+39-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:21:13-25:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:22:17-69
+40-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:22:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:24:17-77
+42-->C:\MAD_CODE\mad23-practical-2---activitylifecycle-Praveen1e3r24\app\src\main\AndroidManifest.xml:24:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+48            android:authorities="sg.edu.np.mad.madpractical.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\65965\.gradle\caches\transforms-3\6cbb61572e80f941ddcb1552af952408\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\65965\.gradle\caches\transforms-3\6cbb61572e80f941ddcb1552af952408\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\65965\.gradle\caches\transforms-3\6cbb61572e80f941ddcb1552af952408\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-53        </provider>
-54    </application>
-55
-56</manifest>
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\65965\.gradle\caches\transforms-3\492c5cbc6d7eb2d03bd65dfdba44178e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\65965\.gradle\caches\transforms-3\6cbb61572e80f941ddcb1552af952408\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\65965\.gradle\caches\transforms-3\6cbb61572e80f941ddcb1552af952408\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\65965\.gradle\caches\transforms-3\6cbb61572e80f941ddcb1552af952408\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>
